@@ -1,0 +1,19 @@
+{
+  "name": "my-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "evershop install",
+    "start": "evershop start",
+    "build": "evershop build",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create"
+  },
+  "dependencies": {
+    "@evershop/evershop": "1.0.0"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  }
+}
